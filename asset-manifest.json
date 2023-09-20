@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/goit-react-hw-registration-login/static/css/main.9b55742e.css",
-    "main.js": "/goit-react-hw-registration-login/static/js/main.0cb472f9.js",
+    "main.js": "/goit-react-hw-registration-login/static/js/main.04c73525.js",
     "static/js/266.b1bf0513.chunk.js": "/goit-react-hw-registration-login/static/js/266.b1bf0513.chunk.js",
     "static/css/395.49339f3d.chunk.css": "/goit-react-hw-registration-login/static/css/395.49339f3d.chunk.css",
-    "static/js/395.93ec17be.chunk.js": "/goit-react-hw-registration-login/static/js/395.93ec17be.chunk.js",
+    "static/js/395.16eaa848.chunk.js": "/goit-react-hw-registration-login/static/js/395.16eaa848.chunk.js",
     "static/css/186.2eb95a8f.chunk.css": "/goit-react-hw-registration-login/static/css/186.2eb95a8f.chunk.css",
-    "static/js/186.19487736.chunk.js": "/goit-react-hw-registration-login/static/js/186.19487736.chunk.js",
+    "static/js/186.17cd65e3.chunk.js": "/goit-react-hw-registration-login/static/js/186.17cd65e3.chunk.js",
     "static/js/910.022e6d0f.chunk.js": "/goit-react-hw-registration-login/static/js/910.022e6d0f.chunk.js",
     "index.html": "/goit-react-hw-registration-login/index.html",
     "main.9b55742e.css.map": "/goit-react-hw-registration-login/static/css/main.9b55742e.css.map",
-    "main.0cb472f9.js.map": "/goit-react-hw-registration-login/static/js/main.0cb472f9.js.map",
+    "main.04c73525.js.map": "/goit-react-hw-registration-login/static/js/main.04c73525.js.map",
     "266.b1bf0513.chunk.js.map": "/goit-react-hw-registration-login/static/js/266.b1bf0513.chunk.js.map",
     "395.49339f3d.chunk.css.map": "/goit-react-hw-registration-login/static/css/395.49339f3d.chunk.css.map",
-    "395.93ec17be.chunk.js.map": "/goit-react-hw-registration-login/static/js/395.93ec17be.chunk.js.map",
+    "395.16eaa848.chunk.js.map": "/goit-react-hw-registration-login/static/js/395.16eaa848.chunk.js.map",
     "186.2eb95a8f.chunk.css.map": "/goit-react-hw-registration-login/static/css/186.2eb95a8f.chunk.css.map",
-    "186.19487736.chunk.js.map": "/goit-react-hw-registration-login/static/js/186.19487736.chunk.js.map",
+    "186.17cd65e3.chunk.js.map": "/goit-react-hw-registration-login/static/js/186.17cd65e3.chunk.js.map",
     "910.022e6d0f.chunk.js.map": "/goit-react-hw-registration-login/static/js/910.022e6d0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b55742e.css",
-    "static/js/main.0cb472f9.js"
+    "static/js/main.04c73525.js"
   ]
 }
