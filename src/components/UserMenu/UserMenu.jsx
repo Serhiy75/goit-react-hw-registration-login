@@ -1,8 +1,8 @@
 import { useDispatch } from 'react-redux';
-import { logOut } from 'redux/auth/operations';
 import { useAuth } from 'hooks/useAuth';
 import css from './UserMenu.module.css';
 import { NavLink } from 'react-router-dom';
+import { logout } from 'redux/auth/operations';
 
 export const UserMenu = () => {
   const dispatch = useDispatch();
@@ -17,7 +17,7 @@ export const UserMenu = () => {
           </NavLink>
         </li>
         <p className={css.welcome}>Welcome: {user.name}</p>
-        <button type="button" onClick={() => dispatch(logOut())}>
+        <button type="button" onClick={() => dispatch(logout())}>
           Logout
         </button>
       </ul>
