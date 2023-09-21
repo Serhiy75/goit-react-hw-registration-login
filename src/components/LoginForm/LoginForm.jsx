@@ -28,6 +28,7 @@ export const LoginForm = () => {
             type="password"
             name="password"
             placeholder="Enter your password"
+            autoComplete="off"
           />
         </div>
         <button type="submit" className={css.button}>

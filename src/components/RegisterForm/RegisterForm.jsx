@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/auth/operations';
 import css from './RegisterForm.module.css';
+import { Link } from 'react-router-dom';
 
 export const RegisterForm = () => {
   const dispatch = useDispatch();
@@ -8,6 +9,8 @@ export const RegisterForm = () => {
   const handleSubmit = event => {
     event.preventDefault();
     const form = event.currentTarget;
+    if (form.elements.password.value !== form.elements.confirmPassword.value)
+      return;
     dispatch(
       register({
         name: form.elements.name.value,
@@ -44,12 +47,23 @@ export const RegisterForm = () => {
             name="password"
             placeholder="Enter your password"
             className={css.input}
+            autoComplete="off"
+          />
+        </div>
+        <div className={css.label}>
+          <input
+            type="password"
+            name="confirmPassword"
+            placeholder="confirm password"
+            className={css.input}
+            autoComplete="off"
           />
         </div>
         <button type="submit" className={css.button}>
           Register
         </button>
       </form>
+      <Link to="/login">log in</Link>
     </div>
   );
 };
