@@ -69,3 +69,4 @@ export const refreshUser = createAsyncThunk(
 );
 
 // https://github.com/VovaMelnyk/TS/tree/master
+// npm i @babel/plugin-proposal-private-property-in-object
